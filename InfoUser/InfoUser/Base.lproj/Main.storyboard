@@ -169,8 +169,10 @@
                     </view>
                     <connections>
                         <outlet property="addButton" destination="20u-lP-6YW" id="amv-e8-mCN"/>
+                        <outlet property="age" destination="WSe-wU-C5i" id="QNr-0C-ZJ7"/>
                         <outlet property="childTableView" destination="ySi-rr-p0Z" id="E2T-j3-TxX"/>
                         <outlet property="deleteAllButton" destination="TGz-Yh-yT5" id="qqn-rL-oAI"/>
+                        <outlet property="fio" destination="lK8-My-Ecq" id="FhW-LS-dGc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wIq-JW-tDh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
