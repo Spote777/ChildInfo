@@ -15,6 +15,8 @@ class FamilyViewController: UIViewController {
     
     @IBOutlet weak var childTableView: UITableView!
     @IBOutlet weak var addButton: UIButton!
+    @IBOutlet weak var fio: UITextField!
+    @IBOutlet weak var age: UITextField!
     @IBOutlet weak var deleteAllButton: UIButton!
     
     var childNameArray = [String]()
@@ -57,6 +59,8 @@ class FamilyViewController: UIViewController {
             self.childAgeArray.removeAll()
             self.childNameArray.removeAll()
             self.childCount = 0
+            self.fio.text = ""
+            self.age.text = ""
             self.hideAddChildButton()
             self.childTableView.reloadData()
         })
